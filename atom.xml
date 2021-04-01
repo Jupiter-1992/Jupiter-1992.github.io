@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hexo Feather</title>
   <icon>https://jupiter-1992.github.io/icon.png</icon>
-  <subtitle>feather</subtitle>
+  <subtitle>Feather</subtitle>
   <link href="https://jupiter-1992.github.io/atom.xml" rel="self"/>
   
   <link href="https://jupiter-1992.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://jupiter-1992.github.io/</id>
   
   <author>
-    <name>Jupiter</name>
+    <name>Feather</name>
     
   </author>
   
