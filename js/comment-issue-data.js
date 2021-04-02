@@ -1,8 +1,8 @@
 // 评论issues仓库 by.removeif https://removeif.github.io/
 var repoIssuesUrl = "https://api.github.com/repos/Jupiter-1992/gitalk/issues";
 // 对应仓库 clientId、clientSecret 关于这两个参数的安全问题，查看 https://removeif.github.io/2019/09/19/博客源码分享.html#1-热门推荐，最新评论：
-var clientId;// = "9dacde0212930c462937";
-var clientSecret;// = "547c51158e6f4f4c05bc22ef691a6bd77ecade04";
+var clientId = "9dacde0212930c462937";
+var clientSecret = "547c51158e6f4f4c05bc22ef691a6bd77ecade04";
 // var authorizationToken = 'Basic ' + btoa(clientId + ':' + clientSecret);
 // 写comment count值
 var reqCommentCountUrl;
@@ -181,8 +181,9 @@ function renderCommentData(COMMENT_ARR) {
                 "<div class='card-comment-item'>" + 
                     "<a href=\"" + item.userUrl + "\"target=\"_blank\">" + 
                         "<img class='ava' src='" + item.userAvatar + "'  onerror='this.onerror = null;this.src=\"https://cdn.jsdelivr.net/npm/gitalk@1/src/assets/icon/github.svg\";' /></a>" +
-                    "<div class='item-header-text'><a href='" + item.userUrl + "' target='_blank'>" + item.userName + "</a>&nbsp;发表于" + getDateDiff(new Date(item.date).getTime()) + "</div>" + "<div class=\"item-text\"><a href =\"" + item.url + '#comment-container\">' + contentStr + "</a></div>" +
-                "</div>";
+                    "<div class='item-header-text'><a href='" + item.userUrl + "' target='_blank'>" + item.userName + "</a>&nbsp;发表于" + getDateDiff(new Date(item.date).getTime()) 
+             + "</div>" 
+        + "<div class=\"item-text\"><a href =\"" + item.url + '#comment-container\>' + contentStr + "</a></div></div>";
         }
         htmlContentWidget += "</div>"
         $(".body_hot_comment").html(htmlContentWidget);
@@ -317,10 +318,8 @@ function loadIssueData(appId, appKey, userName, userRepo, isValine) {
             // 渲染评论数据
             renderCommentData(COMMENT_ARR);
         }
-
         // 首页热门推荐
         loadIndexHotData(authorizationToken);
-
         // 装载评论数到文章对应位置
         var gitalkIdsArr = document.getElementsByClassName('display-none-class');
         if (gitalkIdsArr != undefined && gitalkIdsArr.length > 0) {
@@ -335,10 +334,7 @@ function loadIssueData(appId, appKey, userName, userRepo, isValine) {
         }
         // console.clear();
         //console.log("~~~~欢迎光临！记得有时间多来看看哦，https://removeif.github.io/ ~~~~")
-    }
-        ,
-        500
-    )
+    },1000)
 }
 // $(document).ready(loadIssueData());
 
