@@ -12271,6 +12271,7 @@ textarea {
 }
 body {
   background: url("/img/background.png");
+  cursor: url("//cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur"), auto;
 }
 .img-x {
   position: relative;
