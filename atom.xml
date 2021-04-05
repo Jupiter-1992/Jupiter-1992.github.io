@@ -96,7 +96,7 @@
     <link href="https://jupiter-1992.github.io/2021/03/27/hello-world/"/>
     <id>https://jupiter-1992.github.io/2021/03/27/hello-world/</id>
     <published>2021-03-26T18:23:01.601Z</published>
-    <updated>2021-04-05T09:26:16.415Z</updated>
+    <updated>2021-04-05T14:10:12.290Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;简写指令&quot;&gt;&lt;a href=&quot;#简写指令&quot; class=&quot;headerlink&quot; title=&quot;简写指令:&quot;&gt;&lt;/a&gt;简写指令:&lt;/h2&gt;&lt;p&gt;hexo n “我的第一篇文章” 等价于&lt;br&gt;hexo new “我的第一篇文章” 还等价于&lt;br&gt;hexo new post “我的第一篇文章”&lt;br&gt;hexo p 等价于 hexo publish&lt;br&gt;hexo g 等价于 hexo generate&lt;br&gt;hexo s等价于 hexo server&lt;br&gt;hexo d 等价于 hexo deploy&lt;br&gt;hexo deploy -g 等价于 hexo deploy –generate&lt;br&gt;hexo generate -d等价于hexo generate –deploy&lt;/p&gt;
@@ -212,17 +212,18 @@ function onTabClick (event) {
 &lt;/div&gt;&lt;div class=&quot;message-body&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://blog.zhangruipeng.me/hexo-theme-icarus/&quot;&gt;Icarus&lt;/a&gt; 主题以白色的简洁为主，但有时候我们希望在文章中用&lt;strong&gt;特别的样式&lt;/strong&gt;注明一些内容，&lt;em&gt;markdown&lt;/em&gt; 语法就不够用了，所以在此分享一下我的高级玩法。&lt;/p&gt;
 &lt;/div&gt;&lt;/article&gt;
+&lt;br&gt;
 
-&lt;h4 id=&quot;点击展开代码&quot;&gt;&lt;a href=&quot;#点击展开代码&quot; class=&quot;headerlink&quot; title=&quot;点击展开代码&quot;&gt;&lt;/a&gt;点击展开代码&lt;/h4&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;figcaption&gt;&lt;span&gt;点击展开代码 &gt;folded&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&amp;#x27;I love Icarus!&amp;#x27;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&quot;6-点击展开代码&quot;&gt;&lt;a href=&quot;#6-点击展开代码&quot; class=&quot;headerlink&quot; title=&quot;6.点击展开代码&quot;&gt;&lt;/a&gt;6.点击展开代码&lt;/h4&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;figcaption&gt;&lt;span&gt;点击展开代码 &gt;folded&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(&lt;span class=&quot;string&quot;&gt;&amp;#x27;I love Icarus!&amp;#x27;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
-&lt;h4 id=&quot;你知道的太多了&quot;&gt;&lt;a href=&quot;#你知道的太多了&quot; class=&quot;headerlink&quot; title=&quot;你知道的太多了&quot;&gt;&lt;/a&gt;你知道的太多了&lt;/h4&gt;
+&lt;h4 id=&quot;7-你知道的太多了&quot;&gt;&lt;a href=&quot;#7-你知道的太多了&quot; class=&quot;headerlink&quot; title=&quot;7.你知道的太多了&quot;&gt;&lt;/a&gt;7.你知道的太多了&lt;/h4&gt;
 &lt;style type=&quot;text/css&quot;&gt;
 .heimu { color: #000; background-color: #000; }
 .heimu:hover { color: #fff; }
 &lt;/style&gt;
 
 &lt;p&gt;&lt;strong&gt;iMaeGoo&lt;/strong&gt; 出自独立游戏 &lt;a href=&quot;https://store.steampowered.com/app/22000/&quot;&gt;World of Goo&lt;/a&gt; 里小粘球的叫声，读作 /ɪ’mæɡu/ &lt;span class=&quot;heimu&quot;&gt;不是爱妹狗啊&lt;/span&gt;，在家里电脑还是个大头（CRT）的时候就在玩了，其实头像也是在当时设定的，一直沿用至今。&lt;span class=&quot;heimu&quot;&gt;找不到女朋友誓不改头像&lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&quot;让简介不出现在正文&quot;&gt;&lt;a href=&quot;#让简介不出现在正文&quot; class=&quot;headerlink&quot; title=&quot;让简介不出现在正文&quot;&gt;&lt;/a&gt;让简介不出现在正文&lt;/h4&gt;&lt;p&gt;这里的内容会出现在 &lt;strong&gt;简介和正文&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;8-让简介不出现在正文&quot;&gt;&lt;a href=&quot;#8-让简介不出现在正文&quot; class=&quot;headerlink&quot; title=&quot;8.让简介不出现在正文&quot;&gt;&lt;/a&gt;8.让简介不出现在正文&lt;/h4&gt;&lt;p&gt;这里的内容会出现在 &lt;strong&gt;简介和正文&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&quot;post-summary&quot;&gt;
 
 &lt;p&gt;这里的内容只会出现在 &lt;strong&gt;简介&lt;/strong&gt;&lt;/p&gt;
