@@ -131,10 +131,10 @@
     <link href="https://jupiter-1992.github.io/2021/03/27/hello-world/"/>
     <id>https://jupiter-1992.github.io/2021/03/27/hello-world/</id>
     <published>2021-03-26T18:23:01.601Z</published>
-    <updated>2021-04-08T12:17:39.694Z</updated>
+    <updated>2021-04-09T13:01:19.071Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;简写指令&quot;&gt;&lt;a href=&quot;#简写指令&quot; class=&quot;headerlink&quot; title=&quot;简写指令:&quot;&gt;&lt;/a&gt;简写指令:&lt;/h2&gt;&lt;p&gt;hexo n “我的第一篇文章” 等价于&lt;br&gt;hexo new “我的第一篇文章” 还等价于&lt;br&gt;hexo new post “我的第一篇文章”&lt;br&gt;hexo p 等价于 hexo publish&lt;br&gt;hexo g 等价于 hexo generate&lt;br&gt;hexo s等价于 hexo server&lt;br&gt;hexo d 等价于 hexo deploy&lt;br&gt;hexo deploy -g 等价于 hexo deploy –generate&lt;br&gt;hexo generate -d等价于hexo generate –deploy&lt;/p&gt;
+    <summary type="html">&lt;h4 id=&quot;简写指令&quot;&gt;&lt;a href=&quot;#简写指令&quot; class=&quot;headerlink&quot; title=&quot;简写指令:&quot;&gt;&lt;/a&gt;简写指令:&lt;/h4&gt;&lt;p&gt;hexo n “我的第一篇文章” 等价于&lt;br&gt;hexo new “我的第一篇文章” 还等价于&lt;br&gt;hexo new post “我的第一篇文章”&lt;br&gt;hexo p 等价于 hexo publish&lt;br&gt;hexo g 等价于 hexo generate&lt;br&gt;hexo s等价于 hexo server&lt;br&gt;hexo d 等价于 hexo deploy&lt;br&gt;hexo deploy -g 等价于 hexo deploy –generate&lt;br&gt;hexo generate -d等价于hexo generate –deploy&lt;/p&gt;
 &lt;p&gt;注: hexo clean 没有 简写, git –version 没有简写&lt;/p&gt;</summary>
     
     
