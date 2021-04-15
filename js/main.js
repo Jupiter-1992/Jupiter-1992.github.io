@@ -149,6 +149,7 @@ function loadMathJax() { //加载mathjax
 $(document).ready(function () {
     loadMainJs(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings);
     /* 添加背景色 */
+		/*
     var navbar = $(".is-fixed-top");
     var navbar1 = $(".justify-content-start");
     if (navbar.offset().top > 12) {
@@ -158,6 +159,7 @@ $(document).ready(function () {
         navbar.removeClass("navbar-highlight");
         navbar1.removeClass("navbar-highlight");
     }
+
     $(window).scroll(function () {
         if (navbar.offset().top > 12) {
             navbar.addClass("navbar-highlight");
@@ -167,4 +169,5 @@ $(document).ready(function () {
             navbar1.removeClass("navbar-highlight");
         }
     });
+	*/
 });
