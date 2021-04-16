@@ -40,8 +40,9 @@ function loadMainJs($, moment, ClipboardJS, config) {
         } else {
             $('.navbar-main .navbar-menu').removeClass('justify-content-start');
         }
+		//添加背景模糊效果
+		$('.navbar-main .navbar-menu').addClass("navbar-highlight");
     }
-
     adjustNavbar();
     $(window).resize(adjustNavbar);
 
@@ -148,26 +149,19 @@ function loadMathJax() { //加载mathjax
 
 $(document).ready(function () {
     loadMainJs(jQuery, window.moment, window.ClipboardJS, window.IcarusThemeSettings);
-    /* 添加背景色 */
-		/*
+    /*  添加背景模糊效果 */
     var navbar = $(".is-fixed-top");
     var navbar1 = $(".justify-content-start");
-    if (navbar.offset().top > 12) {
         navbar.addClass("navbar-highlight");
         navbar1.addClass("navbar-highlight");
-    } else {
-        navbar.removeClass("navbar-highlight");
-        navbar1.removeClass("navbar-highlight");
-    }
 
     $(window).scroll(function () {
-        if (navbar.offset().top > 12) {
+  //      if (navbar.offset().top > -1) {
             navbar.addClass("navbar-highlight");
             navbar1.addClass("navbar-highlight");
-        } else {
-            navbar.removeClass("navbar-highlight");
-            navbar1.removeClass("navbar-highlight");
-        }
+  //      } else {
+  //          navbar.removeClass("navbar-highlight");
+  //          navbar1.removeClass("navbar-highlight");
+  //      }
     });
-	*/
 });
