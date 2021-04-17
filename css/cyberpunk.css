@@ -11957,10 +11957,12 @@ textarea {
   font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 body {
-  background: url("https://api.ixiaowai.cn/api/api.php");
   background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
   background-attachment: fixed;
-  background-size: cover;
+  -webkit-background-attachment: fixed;
+  background: url("https://api.ixiaowai.cn/api/api.php");
   cursor: url("//cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur"), auto;
 }
 .img-x {
