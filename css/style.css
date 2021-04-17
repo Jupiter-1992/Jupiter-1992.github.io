@@ -10764,6 +10764,7 @@ body > .section {
   border-color: transparent;
 }
 .card {
+  background-color: rgba(200,220,255,0.9);
   overflow: visible;
   border-radius: 4px;
 }
@@ -11955,11 +11956,9 @@ textarea {
   font-family: 'Monda', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 body {
-  background: url("https://random.52ecy.cn/randbg.php");
+  background: url("https://api.ixiaowai.cn/api/api.php");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: cover;
   cursor: url("//cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur"), auto;
 }
 .img-x {
