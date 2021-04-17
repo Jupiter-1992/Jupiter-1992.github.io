@@ -11958,10 +11958,9 @@ textarea {
 body {
   background: url("https://api.ixiaowai.cn/api/api.php");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  -webkit-background-size: 100% 100%;
   background-attachment: fixed;
-  -webkit-background-attachment: fixed;
+  background-position: 100% 100%;
+  background-size: cover;
   cursor: url("//cdn.jsdelivr.net/gh/TRHX/CDN-for-itrhx.com@2.1.6/images/mouse.cur"), auto;
 }
 .img-x {
