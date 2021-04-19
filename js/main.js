@@ -156,12 +156,15 @@ $(document).ready(function () {
         navbar1.addClass("navbar-highlight");
 
     $(window).scroll(function () {
-  //      if (navbar.offset().top > -1) {
-            navbar.addClass("navbar-highlight");
-            navbar1.addClass("navbar-highlight");
-  //      } else {
-  //          navbar.removeClass("navbar-highlight");
-  //          navbar1.removeClass("navbar-highlight");
-  //      }
+    var isNightTemp = localStorage.getExpire('night');
+			navbar.addClass("navbar-highlight");
+			navbar1.addClass("navbar-highlight");
     });
 });
+
+
+
+
+
+
+
