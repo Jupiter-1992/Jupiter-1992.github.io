@@ -2124,7 +2124,7 @@ a.list-item {
   background-color: #fcee09;
   min-height: 3.25rem;
   position: relative;
-  z-index: 30;
+  z-index: 100;
 }
 .navbar.is-white {
   background-color: #fff;
@@ -2800,7 +2800,7 @@ a.list-item {
   left: 0;
   position: fixed;
   right: 0;
-  z-index: 30;
+  z-index: 100;
 }
 .navbar.is-fixed-bottom {
   bottom: 0;
@@ -2939,7 +2939,7 @@ a.navbar-item.is-active,
   border-bottom-color: #02d7f2;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  color: #02d7f2;
+  color: #7df146;
   padding-bottom: calc(0.5rem - 3px);
 }
 .navbar-content {
@@ -2995,7 +2995,7 @@ a.navbar-item.is-active,
     left: 0;
     position: fixed;
     right: 0;
-    z-index: 30;
+    z-index: 100;
   }
   .navbar.is-fixed-bottom-touch {
     bottom: 0;
@@ -3060,11 +3060,11 @@ a.navbar-item.is-active,
   .navbar.is-transparent .navbar-dropdown a.navbar-item:focus,
   .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
     background-color: #f5f5f5;
-    color: #000;
+    color: #da46f1;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: #f5f5f5;
-    color: #02d7f2;
+    color: #3273dc;
   }
   .navbar-burger {
     display: none;
@@ -3145,11 +3145,11 @@ a.navbar-item.is-active,
   .navbar-dropdown a.navbar-item:focus,
   .navbar-dropdown a.navbar-item:hover {
     background-color: #f5f5f5;
-    color: #000;
+    color: #da46f1;
   }
   .navbar-dropdown a.navbar-item.is-active {
     background-color: #f5f5f5;
-    color: #02d7f2;
+    color: #3273dc;
   }
   .navbar.is-spaced .navbar-dropdown,
   .navbar-dropdown.is-boxed {
@@ -3184,7 +3184,7 @@ a.navbar-item.is-active,
     left: 0;
     position: fixed;
     right: 0;
-    z-index: 30;
+    z-index: 100;
   }
   .navbar.is-fixed-bottom-desktop {
     bottom: 0;

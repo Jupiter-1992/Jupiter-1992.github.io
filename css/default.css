@@ -2124,7 +2124,7 @@ a.list-item {
   background-color: #fff;
   min-height: 3.25rem;
   position: relative;
-  z-index: 30;
+  z-index: 100;
 }
 .navbar.is-white {
   background-color: #fff;
@@ -2800,7 +2800,7 @@ a.list-item {
   left: 0;
   position: fixed;
   right: 0;
-  z-index: 30;
+  z-index: 100;
 }
 .navbar.is-fixed-bottom {
   bottom: 0;
@@ -2837,7 +2837,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden;
 }
 .navbar-burger {
-  color: #4a4a4a;
+  color: #f14668;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -2883,7 +2883,7 @@ body.has-navbar-fixed-bottom {
 }
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: #f14668;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -2939,7 +2939,7 @@ a.navbar-item.is-active,
   border-bottom-color: #3273dc;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  color: #3273dc;
+  color: #7df146;
   padding-bottom: calc(0.5rem - 3px);
 }
 .navbar-content {
@@ -2995,7 +2995,7 @@ a.navbar-item.is-active,
     left: 0;
     position: fixed;
     right: 0;
-    z-index: 30;
+    z-index: 100;
   }
   .navbar.is-fixed-bottom-touch {
     bottom: 0;
@@ -3060,7 +3060,7 @@ a.navbar-item.is-active,
   .navbar.is-transparent .navbar-dropdown a.navbar-item:focus,
   .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
     background-color: #f5f5f5;
-    color: #0a0a0a;
+    color: #da46f1;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: #f5f5f5;
@@ -3145,7 +3145,7 @@ a.navbar-item.is-active,
   .navbar-dropdown a.navbar-item:focus,
   .navbar-dropdown a.navbar-item:hover {
     background-color: #f5f5f5;
-    color: #0a0a0a;
+    color: #da46f1;
   }
   .navbar-dropdown a.navbar-item.is-active {
     background-color: #f5f5f5;
@@ -3184,7 +3184,7 @@ a.navbar-item.is-active,
     left: 0;
     position: fixed;
     right: 0;
-    z-index: 30;
+    z-index: 100;
   }
   .navbar.is-fixed-bottom-desktop {
     bottom: 0;
