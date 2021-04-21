@@ -2906,13 +2906,14 @@ a.navbar-item:hover,
 .navbar-link:hover,
 a.navbar-item.is-active,
 .navbar-link.is-active {
-  background-color: #fafafa;
+  background-color: #cddffe;
   color: #3273dc;
 }
 .navbar-item {
   display: block;
   flex-grow: 0;
   flex-shrink: 0;
+  font-weight: bold;
 }
 .navbar-item img {
   max-height: 1.75rem;
@@ -3222,7 +3223,7 @@ a.navbar-item.is-active,
   .navbar-item.has-dropdown:focus .navbar-link,
   .navbar-item.has-dropdown:hover .navbar-link,
   .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #fafafa;
+    background-color: #cddffe;
   }
 }
 .hero.is-fullheight-with-navbar {

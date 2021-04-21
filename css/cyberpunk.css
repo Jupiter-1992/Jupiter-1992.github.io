@@ -2913,6 +2913,7 @@ a.navbar-item.is-active,
   display: block;
   flex-grow: 0;
   flex-shrink: 0;
+  font-weight: bold;
 }
 .navbar-item img {
   max-height: 1.75rem;
