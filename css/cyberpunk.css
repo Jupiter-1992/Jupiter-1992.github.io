@@ -10271,16 +10271,16 @@ body > .section {
   }
   ::-webkit-scrollbar-track {
     border-radius: 3px;
-    background: rgba(0,0,0,0.06);
+    background: rgba(0,0,0,0.1);
     box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
   }
   ::-webkit-scrollbar-thumb {
     border-radius: 3px;
-    background: rgba(0,0,0,0.12);
+    background: rgba(71,176,255,0.8);
     box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0,0,0,0.24);
+    background: rgba(71,176,255,0.5);
   }
 }
 .article-licensing .licensing-meta h6,
