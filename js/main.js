@@ -154,11 +154,17 @@ $(document).ready(function () {
     var navbar1 = $(".justify-content-start");
         navbar.addClass("navbar-highlight");
         navbar1.addClass("navbar-highlight");
-
     $(window).scroll(function () {
-    var isNightTemp = localStorage.getExpire('night');
-			navbar.addClass("navbar-highlight");
-			navbar1.addClass("navbar-highlight");
+		var isNightTemp = localStorage.getExpire('night');
+		navbar.addClass("navbar-highlight");
+		navbar1.addClass("navbar-highlight");
+	if (navbar.offset().top > 12) {
+		navbar.css("z-index","-10");
+        navbar1.css("z-index","-10");
+        } else {
+		navbar.css("z-index","100");
+        navbar1.css("z-index","100");
+        }
     });
 });
 
