@@ -143,7 +143,7 @@
     <link href="https://jupiter-1992.github.io/2021/03/20/Hello-World/"/>
     <id>https://jupiter-1992.github.io/2021/03/20/Hello-World/</id>
     <published>2021-03-20T15:08:36.000Z</published>
-    <updated>2021-10-17T15:56:10.575Z</updated>
+    <updated>2021-10-18T13:20:28.289Z</updated>
     
     
     <summary type="html">&lt;h4 id=&quot;简写指令&quot;&gt;&lt;a href=&quot;#简写指令&quot; class=&quot;headerlink&quot; title=&quot;简写指令:&quot;&gt;&lt;/a&gt;简写指令:&lt;/h4&gt;&lt;p&gt;hexo n “我的第一篇文章” 等价于&lt;br&gt;hexo new “我的第一篇文章” 还等价于&lt;br&gt;hexo new post “我的第一篇文章”&lt;br&gt;hexo p 等价于 hexo publish&lt;br&gt;hexo g 等价于 hexo generate&lt;br&gt;hexo s等价于 hexo server&lt;br&gt;hexo d 等价于 hexo deploy&lt;br&gt;hexo deploy -g 等价于 hexo deploy –generate&lt;br&gt;hexo generate -d等价于hexo generate –deploy&lt;/p&gt;
@@ -151,7 +151,7 @@
     
     
     
-    <category term="Qthers" scheme="https://jupiter-1992.github.io/categories/Qthers/"/>
+    <category term="Others" scheme="https://jupiter-1992.github.io/categories/Others/"/>
     
     
     <category term="hexo" scheme="https://jupiter-1992.github.io/tags/hexo/"/>
