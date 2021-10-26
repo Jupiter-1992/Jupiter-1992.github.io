@@ -11964,7 +11964,7 @@ body:before {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("https://tuapi.eees.cc/api.php?category=dongman&type=302");
+  background: url("https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images");
   background-repeat: no-repeat;
   background-size: cover;
 }
